@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('') {
       steps {
-        echo '"Building Pet Clinic"'
+        sh 'echo "Building Pet Clinic"'
       }
     }
   }
